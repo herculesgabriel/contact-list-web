@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* header */
+
+header {
+  align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  background:  #12754f;
+}
+
+.title-page {
+  padding-left: 40px;
+  color: #ffffff;
+  font-family: 'Berkshire Swash', cursive;
+  font-weight: 400;
+}
+
+.menu {
+  align-items: center;
+  display: flex;
+  margin-right: 40px;
+}
+
+.menu p {
+  margin: 20px 20px 0;
+  height: 40px;
+  transition: border-bottom 200ms;
+}
+
+.menu p:hover {
+  border-bottom: 4px solid #ffffff;
+}
+
+.current-page {
+  border-bottom: 4px solid #ffffff;
+}
+
+.menu-options {
+  color: #ffffff;
+}
+
+/* main */
+
+.title-main {
+  color: rgba(81, 85, 90, 1);
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.credits {
+  width: 100%;
+  position: fixed;
+  bottom: 10px;
+  text-align: center;
+}

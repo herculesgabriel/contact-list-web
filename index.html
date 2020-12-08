@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/styles/reset.css">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/index.css">
+
+  <title>Lista de Contatos</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1 class="title-page">Contatos</h1>
+
+      <div class="menu">
+        <p class="current-page">
+          <a class="menu-options" href="#">Pessoas Cadastradas</a>
+        </p>
+        <p>
+          <a class="menu-options" href="/pages/new-contact.html">Novo Contato</a>
+        </p>
+      </div>
+    </header>
+
+    <main class="empty-list">
+      <img class="empty-list-image" src="assets/empty.svg" alt="empty list">
+      <p class="empty-list-message">Nenhuma pessoa cadastrada</p>
+    </main>
+
+    <main class="contact-list">
+      <h2 class="title-main">Pessoas Cadastradas</h2>
+
+      <table>
+        <thead>
+          <th>Nome</th>
+          <th>Sobrenome</th>
+          <th>Telefone</th>
+          <th>Email</th>
+        </thead>
+
+        <tbody class="contacts"></tbody>
+      </table>
+    </main>
+
+  </div>
+  <script src="/scripts/index.js"></script>
+  <p class="credits">Created by Dan & Hercules</p>
+</body>
+
+</html>

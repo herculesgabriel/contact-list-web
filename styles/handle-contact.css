@@ -1,0 +1,54 @@
+main {
+  align-items: center;
+  background-color: rgba(249, 250, 252, 1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+/* form */
+
+form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  margin: 5px;
+  padding: 5px 15px;
+  outline-color: #119F69;
+  width: 350px;
+}
+
+input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(196, 197, 201, 1);
+  opacity: 1; /* Firefox */
+}
+
+input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgba(196, 197, 201, 1);
+}
+
+input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgba(196, 197, 201, 1);
+}
+
+.button-create-contact,
+.button-edit-contact {
+  background-color: #119F69;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2em;
+  outline-width: 0;
+  padding: 10px;
+  width: 350px;
+}

@@ -1,0 +1,88 @@
+main {
+  display: flex;
+  flex-direction: column;
+  height: 95%;
+}
+
+/* no data */
+
+.empty-list {
+  align-items: center;
+  background-color: rgb(249, 250, 252);
+  justify-content: center;
+
+  /* display: none; */
+}
+
+.empty-list-image {
+  margin: 15px;
+  width: 150px;
+}
+
+.empty-list-message {
+  font-size: 1.5em;
+}
+
+/* has data */
+
+.contact-list {
+  background-color: rgb(249, 250, 252);
+  padding: 40px;
+
+  display: none;
+}
+
+/* table */
+
+table {
+  width: 100%;
+  margin: 0 auto;
+}
+
+th,
+td {
+  padding: 5px;
+  color: rgb(81, 85, 90);
+}
+
+th {
+  font-size: 1.3em;
+}
+
+td {
+  background-color: white;
+  border: 1px solid rgb(233, 233, 235);
+  border-radius: 5px;
+  border-spacing: 0px;
+  text-align: center;
+}
+
+.buttons-row {
+  background-color: rgb(249, 250, 252);
+  border: none;
+  width: 120px;
+}
+
+.table-button {
+  background-color: #119F69;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px;
+
+  border: 1px solid #119F69;
+  border-radius: 5px;
+
+  height: 30px;
+  line-height: 0;
+  outline: none;
+  text-align: center;
+  width: 30px;
+}
+
+.edit-button {
+  background-image: url(../assets/edit-contact.png);
+}
+
+.delete-button {
+  background-image: url(../assets/delete-contact.png);
+}

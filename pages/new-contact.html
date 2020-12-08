@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/styles/reset.css">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/handle-contact.css">
+
+  <title>Adicionar contato</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1 class="title-page">Contatos</h1>
+
+      <div class="menu">
+        <p>
+          <a class="menu-options" href="/">Pessoas Cadastradas</a>
+        </p>
+        <p class="current-page">
+          <a class="menu-options" href="#">Novo Contato</a>
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <h2 class="title-main">Adicionar contato</h2>
+
+      <form>
+        <input type="text" id="first-name" name="first-name" placeholder="Nome">
+        <input type="text" id="last-name" name="last-name" placeholder="Sobrenome">
+        <input type="number" id="phone" name="phone" placeholder="Telefone">
+        <input type="email" id="email" name="email" placeholder="Email">
+
+        <button class="button-create-contact" type="button">Cadastrar</button>
+      </form>
+    </main>
+  </div>
+
+  <p class="credits">Created by Dan & Hercules</p>
+  <script src="/scripts/new-contact.js"></script>
+</body>
+
+</html>
